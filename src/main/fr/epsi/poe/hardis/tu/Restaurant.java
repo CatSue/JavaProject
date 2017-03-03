@@ -41,8 +41,6 @@ public class Restaurant {
         return adresse;
     }
 
-
-
     public String getTelephone() {
         return telephone;
     }

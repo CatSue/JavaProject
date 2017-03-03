@@ -15,6 +15,7 @@ import org.junit.jupiter.api.Test;
 class RestaurantTest {
 
     public static final String NUM_TELEPHONE1 = "+33605020305";
+    public static final String NUM_PHONE ="0605020305";
 
     //vérification qu'un restaurant est ouvert par defaut
     @Test
@@ -55,9 +56,9 @@ class RestaurantTest {
         // Arrange
         Restaurant restaurant = new Restaurant();
         // Act
-        restaurant.setTelephone("0605020305");
+        restaurant.setTelephone(NUM_PHONE);
         // Assert
-        Assertions.assertNotEquals("0605020305", restaurant.getTelephone());
+        Assertions.assertNotEquals(NUM_PHONE, restaurant.getTelephone());
     }
 
     //vérification qu'il est possible de stocker des départements corses (cas limite)
