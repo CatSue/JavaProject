@@ -1,4 +1,4 @@
-package fr.epsi.poe.hardis.tu;
+   package fr.epsi.poe.hardis.tu;
 
 /**
  * Restaurant : classe utilisée pour faire des TU
@@ -7,7 +7,7 @@ package fr.epsi.poe.hardis.tu;
  * @version : 1.0
  * @author : Marie PÉTROD
  */
-
+//TODO
 public class Restaurant {
     //Nom du restaurant
     private String nom;
@@ -41,9 +41,7 @@ public class Restaurant {
         return adresse;
     }
 
-    public String getCodePostal() {
-        return codePostal;
-    }
+
 
     public String getTelephone() {
         return telephone;
@@ -55,6 +53,7 @@ public class Restaurant {
 
     //*****SETTEURS*****//
     public void setNom(String nom) {
+        //provisoire
         this.nom = nom;
     }
 
