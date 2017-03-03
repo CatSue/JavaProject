@@ -50,6 +50,8 @@ public class Restaurant {
         return ouverture;
     }
 
+
+
     //*****SETTEURS*****//
     public void setNom(String nom) {
         //provisoire
@@ -63,6 +65,8 @@ public class Restaurant {
     public void setCodePostal(String codePostal) {
         this.codePostal = codePostal;
     }
+
+
 
     public void setTelephone(String pTelephone) {
         //vérifier si le téléphone n'est pas nul, n'est pas vide et commence bien par +33

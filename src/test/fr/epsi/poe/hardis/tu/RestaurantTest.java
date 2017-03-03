@@ -46,6 +46,7 @@ class RestaurantTest {
         Restaurant restaurant = new Restaurant();
         // Act
         restaurant.setTelephone(NUM_TELEPHONE1);
+        restaurant.setTelephone(NUM_TELEPHONE2);
         // Assert
         Assertions.assertEquals(NUM_TELEPHONE1, restaurant.getTelephone());
     }
