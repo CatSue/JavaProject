@@ -64,6 +64,7 @@ class RestaurantTest {
     //vérification qu'il est possible de stocker des départements corses (cas limite)
     @Test
     //TODO : finir le test
+
     public void testThatCorseIsOk() {
         // Arrange
         Restaurant restaurant = new Restaurant();

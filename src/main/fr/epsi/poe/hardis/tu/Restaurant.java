@@ -28,6 +28,16 @@ public class Restaurant {
     public Restaurant(boolean ouverture) {
         ouverture = true;
     }
+    public String conflit= "gros confli";
+
+    public Restaurant(String nom, String adresse, String codePostal, String telephone, boolean ouverture, String conflit) {
+        this.nom = nom;
+        this.adresse = adresse;
+        this.codePostal = codePostal;
+        this.telephone = telephone;
+        this.ouverture = ouverture;
+        this.conflit = conflit;
+    }
 
     public Restaurant() {
     }
@@ -48,6 +58,8 @@ public class Restaurant {
     public boolean isOuverture() {
         return ouverture;
     }
+
+
 
     //*****SETTEURS*****//
     public void setNom(String nom) {
