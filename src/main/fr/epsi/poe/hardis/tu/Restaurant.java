@@ -7,7 +7,7 @@
  * @version : 1.0
  * @author : Marie PÉTROD
  */
-//TODO
+//version HS
 public class Restaurant {
     //Nom du restaurant
     private String nom;
