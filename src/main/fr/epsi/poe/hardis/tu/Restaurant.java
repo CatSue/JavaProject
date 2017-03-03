@@ -49,9 +49,7 @@ public class Restaurant {
         return ouverture;
     }
 
-    public String getConflit(){
-        return conflit;
-    }
+
 
     //*****SETTEURS*****//
     public void setNom(String nom) {
@@ -67,9 +65,7 @@ public class Restaurant {
         this.codePostal = codePostal;
     }
 
-    public void setConflit(String pConflit) {
-        conflit = pConflit;
-    }
+
 
     public void setTelephone(String pTelephone) {
         //vérifier si le téléphone n'est pas nul, n'est pas vide et commence bien par +33
