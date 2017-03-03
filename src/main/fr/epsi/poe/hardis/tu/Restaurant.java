@@ -7,7 +7,7 @@
  * @version : 1.0
  * @author : Marie PÉTROD
  */
-
+//TODO
 public class Restaurant {
     //Nom du restaurant
     private String nom;
@@ -20,9 +20,6 @@ public class Restaurant {
 
     //N° de téléphone du restaurant
     private String telephone;
-
-    //Conflit
-    private String conflit;
 
     //Ouverture ou fermeture du restaurant
     private boolean ouverture = true;
