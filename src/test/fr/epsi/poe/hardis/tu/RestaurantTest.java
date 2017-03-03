@@ -14,6 +14,8 @@ import org.junit.jupiter.api.Test;
 
 class RestaurantTest {
 
+    public static final String NUM_TELEPHONE1 = "+33605020305";
+
     //vérification qu'un restaurant est ouvert par defaut
     @Test
     public void testThatRestaurantIsOpenByDefault() {
@@ -42,9 +44,9 @@ class RestaurantTest {
         // Arrange
         Restaurant restaurant = new Restaurant();
         // Act
-        restaurant.setTelephone("+33605020305");
+        restaurant.setTelephone(NUM_TELEPHONE1);
         // Assert
-        Assertions.assertEquals("+33605020305", restaurant.getTelephone());
+        Assertions.assertEquals(NUM_TELEPHONE1, restaurant.getTelephone());
     }
 
     //vérification quand on set n° de téléphone si le n° ne commence par +33 pas de sauvegarde
