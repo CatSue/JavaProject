@@ -5,10 +5,11 @@ package fr.epsi.poe.hardis.tu;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+//import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Created by T'Chi on 28/02/2017.
+ *
  */
 
 class RestaurantTest {
@@ -59,7 +60,10 @@ class RestaurantTest {
 
     //vérification qu'il est possible de stocker des départements corses (cas limite)
     @Test
+    //TODO : finir le test
     public void testThatCorseIsOk() {
-
+        // Arrange
+        Restaurant restaurant = new Restaurant();
     }
+
 }
